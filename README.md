@@ -1,1 +1,1 @@
-# Simple-Maze-Generation
+# Simple Binary Tree Maze Generator
