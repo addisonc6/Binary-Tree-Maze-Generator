@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <link rel="stylesheet" href="styles.css">
+  <script src="maze.js"></script> 
+  <meta charset="utf-8"/>
+  
+ </head>
+ <p></p>
+ <h1>Binary Tree Maze Generator</h1>
+ <div id="controls">
+  <h2 id="zoomlabel">Zoom</h2>
+  <h2 id="widthlabel">Line Width</h2>
+</div>
+ <body onload=drawBinaryAlg();>
+   <canvas id="canvas" width="800" height="500"></canvas>
+   <button 
+   onclick="drawBinaryAlg()">Redraw</button> 
+   <div class="sizeselect">
+    <input type="range" min="3" max="10" value="4" class="slider" id="size">
+  </div>
+  <div class="width">
+    <input type="range" min="1" max="10" value="4" class="slider_width" id="width">
+  </div>
+ </body>
+</html>
+

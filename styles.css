@@ -1,0 +1,125 @@
+body {
+    position: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(0,0,0,.85);
+    
+
+}
+
+button {
+    background-color: #3ea041; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    position: fixed;
+    float: right;
+    top: 100px;
+    margin-left: 10px
+    
+  }
+  button:hover {
+      background-color: #459c48;
+  }
+
+  canvas {
+      position: fixed;
+      top: 100px;
+  }
+
+  h1 {
+      position: fixed;
+      top: 10px;
+      color: rgb(255, 232, 22);
+      left: 20px;
+  }
+
+  #zoomlabel {
+      position: fixed;
+      top: 190px;
+      float: right;
+      color: rgb(255, 232, 22);
+      margin-left: 10px
+  }
+
+  #widthlabel {
+      position: fixed;
+      top: 290px;
+      float: right;
+      color: rgb(255, 232, 22);
+      margin-left: 10px
+  }
+
+  .slider {
+    -webkit-appearance: none;
+    width: 10%;
+    height: 10px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    position: fixed;
+    float: right;
+    top: 250px;
+    margin-left: 10px
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+
+  .slider_width {
+    -webkit-appearance: none;
+    width: 10%;
+    height: 10px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    position: fixed;
+    float: right;
+    top: 350px;
+    margin-left: 10px
+  }
+  
+  .slider_width::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+  .slider_width::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+
+  #controls {
+      min-width: 100%
+  }
